@@ -1,0 +1,99 @@
+@media print, screen {
+  .App {
+    background-color: #282c34;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: #000;
+  }
+
+  .Page{
+    background-color: #fff;
+    width: 800px;
+    padding: 35px 30px 20px 30px;
+    margin: 20px 0;
+  }
+
+  .exportButton{
+    margin-top: 20px;
+  }
+
+  .optionButtons{
+    margin-top: 20px;
+    left: 10%;
+    position: absolute;
+  }
+
+  .optionButtons button{
+    margin-right: 5px;
+  }
+
+  h1{
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 3.5px;
+  }
+
+  h2{
+    color: #000;
+    font-size: 32px;
+    font-weight: 400px;
+    margin-top: 10px;
+    padding-top: 0px;
+  }
+
+  h3{
+    font-size: 28px;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .rating{
+    margin-right: 3px;
+  }
+
+  h3 span i{
+    color: #373d48;
+    margin-right: 5px;
+    margin-left: -4px;
+  }
+
+  .content{
+      padding-left: 0;
+      width: auto;
+      display: block;
+  }
+
+  .entry{
+      position: relative;
+  }
+
+  .text{
+      font-size: 1.5rem;
+  }
+}
+
+@media print{
+  .Page{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
